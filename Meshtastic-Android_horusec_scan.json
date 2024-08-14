@@ -1,0 +1,902 @@
+[
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "bytes = text.encodeToByteArray(),",
+    "relatedInformation": [
+      {
+        "startLineNumber": 56,
+        "startColumn": 1,
+        "endLineNumber": 56,
+        "endColumn": 42,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/DataPacket.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "val view = (dialog.findViewById(android.R.id.message) as TextView?)!!",
+    "relatedInformation": [
+      {
+        "startLineNumber": 324,
+        "startColumn": 1,
+        "endLineNumber": 324,
+        "endColumn": 78,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/MainActivity.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "dialog.dismiss()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 738,
+        "startColumn": 1,
+        "endLineNumber": 738,
+        "endColumn": 29,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/MainActivity.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "dialog.show()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 742,
+        "startColumn": 1,
+        "endLineNumber": 742,
+        "endColumn": 22,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/MainActivity.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "dialog.dismiss()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 763,
+        "startColumn": 1,
+        "endLineNumber": 763,
+        "endColumn": 29,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/MainActivity.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "dialog.show()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 766,
+        "startColumn": 1,
+        "endLineNumber": 766,
+        "endColumn": 22,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/MainActivity.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "import android.location.LocationManager",
+    "relatedInformation": [
+      {
+        "startLineNumber": 9,
+        "startColumn": 1,
+        "endLineNumber": 9,
+        "endColumn": 40,
+        "message": "Kotlin - HorusecEngine : GPS Location\nGPS Location",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/android/ContextServices.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "file.println(s) // FIXME, optionally include timestamps",
+    "relatedInformation": [
+      {
+        "startLineNumber": 22,
+        "startColumn": 1,
+        "endLineNumber": 22,
+        "endColumn": 64,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/android/DebugLogFile.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "Log.println(if (forceErrorLevel) Log.ERROR else level, tag, message)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 45,
+        "startColumn": 1,
+        "endLineNumber": 45,
+        "endColumn": 89,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/android/Logging.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "return json.encodeToString(DataPacket.serializer(), value)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 19,
+        "startColumn": 1,
+        "endLineNumber": 19,
+        "endColumn": 67,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/database/Converters.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "return json.encodeToString(DataPacket.serializer(), value)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 19,
+        "startColumn": 1,
+        "endLineNumber": 19,
+        "endColumn": 67,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/database/Converters.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "import android.util.Base64",
+    "relatedInformation": [
+      {
+        "startLineNumber": 5,
+        "startColumn": 1,
+        "endLineNumber": 5,
+        "endColumn": 27,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/model/ChannelSet.kt"
+      }
+    ]
+  },
+  {
+    "code": "LOW",
+    "severity": 4,
+    "source": "import android.util.Base64",
+    "relatedInformation": [
+      {
+        "startLineNumber": 5,
+        "startColumn": 1,
+        "endLineNumber": 5,
+        "endColumn": 27,
+        "message": "Kotlin - HorusecEngine : Base64 Decode\nBase64 Decode",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/model/ChannelSet.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "* Return a [ChannelSet] that represents the ChannelSet encoded by the URL.",
+    "relatedInformation": [
+      {
+        "startLineNumber": 20,
+        "startColumn": 1,
+        "endLineNumber": 20,
+        "endColumn": 76,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/model/ChannelSet.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "val enc = Base64.encodeToString(channelBytes, BASE64FLAGS)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 79,
+        "startColumn": 1,
+        "endLineNumber": 79,
+        "endColumn": 63,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/model/ChannelSet.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "val enc = Base64.encodeToString(channelBytes, BASE64FLAGS)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 79,
+        "startColumn": 1,
+        "endLineNumber": 79,
+        "endColumn": 63,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/model/ChannelSet.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "multiFormatWriter.encode(",
+    "relatedInformation": [
+      {
+        "startLineNumber": 89,
+        "startColumn": 1,
+        "endLineNumber": 89,
+        "endColumn": 38,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/model/ChannelSet.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "meshLogRepository.getAllLogs().collect { _meshLog.value = it }",
+    "relatedInformation": [
+      {
+        "startLineNumber": 25,
+        "startColumn": 1,
+        "endLineNumber": 25,
+        "endColumn": 75,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/model/DebugViewModel.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "Log.i(IMapView.LOGTAG, \"WMS support is BETA. Please report any issues\")",
+    "relatedInformation": [
+      {
+        "startLineNumber": 57,
+        "startColumn": 1,
+        "endLineNumber": 57,
+        "endColumn": 80,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/model/map/NOAAWmsTileSource.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "Log.i(IMapView.LOGTAG, sb.toString())",
+    "relatedInformation": [
+      {
+        "startLineNumber": 151,
+        "startColumn": 1,
+        "endLineNumber": 151,
+        "endColumn": 46,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/model/map/NOAAWmsTileSource.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "import android.location.LocationManager",
+    "relatedInformation": [
+      {
+        "startLineNumber": 5,
+        "startColumn": 1,
+        "endLineNumber": 5,
+        "endColumn": 40,
+        "message": "Kotlin - HorusecEngine : GPS Location\nGPS Location",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/repository/location/LocationRepository.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "private fun LocationManager.requestLocationUpdates() = callbackFlow {",
+    "relatedInformation": [
+      {
+        "startLineNumber": 36,
+        "startColumn": 1,
+        "endLineNumber": 36,
+        "endColumn": 74,
+        "message": "Kotlin - HorusecEngine : GPS Location\nGPS Location",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/repository/location/LocationRepository.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "LocationManagerCompat.requestLocationUpdates(",
+    "relatedInformation": [
+      {
+        "startLineNumber": 75,
+        "startColumn": 1,
+        "endLineNumber": 75,
+        "endColumn": 62,
+        "message": "Kotlin - HorusecEngine : GPS Location\nGPS Location",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/repository/location/LocationRepository.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "fun getLocations() = locationManager.get().requestLocationUpdates()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 99,
+        "startColumn": 1,
+        "endLineNumber": 99,
+        "endColumn": 72,
+        "message": "Kotlin - HorusecEngine : GPS Location\nGPS Location",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/repository/location/LocationRepository.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "import android.location.LocationManager",
+    "relatedInformation": [
+      {
+        "startLineNumber": 4,
+        "startColumn": 1,
+        "endLineNumber": 4,
+        "endColumn": 40,
+        "message": "Kotlin - HorusecEngine : GPS Location\nGPS Location",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/repository/location/LocationRepositoryModule.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "receivedPacketsLog.write(p)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 166,
+        "startColumn": 1,
+        "endLineNumber": 166,
+        "endColumn": 40,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/repository/radio/RadioInterfaceService.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "receivedPacketsLog.flush()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 167,
+        "startColumn": 1,
+        "endLineNumber": 167,
+        "endColumn": 39,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/repository/radio/RadioInterfaceService.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "bytes = s.stats.toString().encodeToByteArray(),",
+    "relatedInformation": [
+      {
+        "startLineNumber": 851,
+        "startColumn": 1,
+        "endLineNumber": 851,
+        "endColumn": 68,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/service/MeshService.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "bytes = text.encodeToByteArray(),",
+    "relatedInformation": [
+      {
+        "startLineNumber": 864,
+        "startColumn": 1,
+        "endLineNumber": 864,
+        "endColumn": 54,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/service/MeshService.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "mqttRepository.publish(topic, text.encodeToByteArray(), retained)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 1464,
+        "startColumn": 1,
+        "endLineNumber": 1464,
+        "endColumn": 86,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/service/MeshService.kt"
+      }
+    ]
+  },
+  {
+    "code": "LOW",
+    "severity": 4,
+    "source": "import android.app.NotificationManager",
+    "relatedInformation": [
+      {
+        "startLineNumber": 5,
+        "startColumn": 1,
+        "endLineNumber": 5,
+        "endColumn": 39,
+        "message": "Kotlin - HorusecEngine : Android Notifications\nAndroid Notifications",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/service/MeshServiceNotifications.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "URLEncoder.encode(name, \"utf-8\")",
+    "relatedInformation": [
+      {
+        "startLineNumber": 52,
+        "startColumn": 1,
+        "endLineNumber": 52,
+        "endColumn": 53,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/LinkedCoordinates.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "dialog.show()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 92,
+        "startColumn": 1,
+        "endLineNumber": 92,
+        "endColumn": 26,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/QuickChatSettingsFragment.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "dialog.show()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 223,
+        "startColumn": 1,
+        "endLineNumber": 223,
+        "endColumn": 22,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/QuickChatSettingsFragment.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "dialog.dismiss()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 209,
+        "startColumn": 1,
+        "endLineNumber": 209,
+        "endColumn": 37,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/SettingsFragment.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "dialog.dismiss()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 214,
+        "startColumn": 1,
+        "endLineNumber": 214,
+        "endColumn": 37,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/SettingsFragment.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "Log.d(\"NodesScreen\", \"NodesScreen: $currentTimeMillis\")",
+    "relatedInformation": [
+      {
+        "startLineNumber": 202,
+        "startColumn": 1,
+        "endLineNumber": 202,
+        "endColumn": 72,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/UsersFragment.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "SwitchPreference(title = \"Rotary encoder #1 enabled\",",
+    "relatedInformation": [
+      {
+        "startLineNumber": 53,
+        "startColumn": 1,
+        "endLineNumber": 53,
+        "endColumn": 66,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/CannedMessageConfigItemList.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "EditTextPreference(title = \"GPIO pin for rotary encoder A port\",",
+    "relatedInformation": [
+      {
+        "startLineNumber": 63,
+        "startColumn": 1,
+        "endLineNumber": 63,
+        "endColumn": 77,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/CannedMessageConfigItemList.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "EditTextPreference(title = \"GPIO pin for rotary encoder B port\",",
+    "relatedInformation": [
+      {
+        "startLineNumber": 73,
+        "startColumn": 1,
+        "endLineNumber": 73,
+        "endColumn": 77,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/CannedMessageConfigItemList.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "EditTextPreference(title = \"GPIO pin for rotary encoder Press port\",",
+    "relatedInformation": [
+      {
+        "startLineNumber": 83,
+        "startColumn": 1,
+        "endLineNumber": 83,
+        "endColumn": 81,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/CannedMessageConfigItemList.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "import android.util.Base64",
+    "relatedInformation": [
+      {
+        "startLineNumber": 3,
+        "startColumn": 1,
+        "endLineNumber": 3,
+        "endColumn": 27,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/EditChannelDialog.kt"
+      }
+    ]
+  },
+  {
+    "code": "LOW",
+    "severity": 4,
+    "source": "import android.util.Base64",
+    "relatedInformation": [
+      {
+        "startLineNumber": 3,
+        "startColumn": 1,
+        "endLineNumber": 3,
+        "endColumn": 27,
+        "message": "Kotlin - HorusecEngine : Base64 Decode\nBase64 Decode",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/EditChannelDialog.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "fun encodeToString(input: ByteString) =",
+    "relatedInformation": [
+      {
+        "startLineNumber": 57,
+        "startColumn": 1,
+        "endLineNumber": 57,
+        "endColumn": 44,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/EditChannelDialog.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "fun encodeToString(input: ByteString) =",
+    "relatedInformation": [
+      {
+        "startLineNumber": 57,
+        "startColumn": 1,
+        "endLineNumber": 57,
+        "endColumn": 44,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/EditChannelDialog.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "Base64.encodeToString(input.toByteArray() ?: ByteArray(0), Base64.DEFAULT)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 58,
+        "startColumn": 1,
+        "endLineNumber": 58,
+        "endColumn": 83,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/EditChannelDialog.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "Base64.encodeToString(input.toByteArray() ?: ByteArray(0), Base64.DEFAULT)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 58,
+        "startColumn": 1,
+        "endLineNumber": 58,
+        "endColumn": 83,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/EditChannelDialog.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "var pskString by remember(channelInput) { mutableStateOf(encodeToString(channelInput.psk)) }",
+    "relatedInformation": [
+      {
+        "startLineNumber": 61,
+        "startColumn": 1,
+        "endLineNumber": 61,
+        "endColumn": 97,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/EditChannelDialog.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "var pskString by remember(channelInput) { mutableStateOf(encodeToString(channelInput.psk)) }",
+    "relatedInformation": [
+      {
+        "startLineNumber": 61,
+        "startColumn": 1,
+        "endLineNumber": 61,
+        "endColumn": 97,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/EditChannelDialog.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "val pskError = pskString != encodeToString(channelInput.psk)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 62,
+        "startColumn": 1,
+        "endLineNumber": 62,
+        "endColumn": 65,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/EditChannelDialog.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "val pskError = pskString != encodeToString(channelInput.psk)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 62,
+        "startColumn": 1,
+        "endLineNumber": 62,
+        "endColumn": 65,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/EditChannelDialog.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "pskString = encodeToString(channelInput.psk)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 122,
+        "startColumn": 1,
+        "endLineNumber": 122,
+        "endColumn": 85,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/EditChannelDialog.kt"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "pskString = encodeToString(channelInput.psk)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 122,
+        "startColumn": 1,
+        "endLineNumber": 122,
+        "endColumn": 85,
+        "message": "Kotlin - HorusecEngine : Base64 Encode\nBasic authentication's only means of obfuscation is Base64 encoding. Since Base64 encoding is easily recognized and reversed, it offers only the thinnest veil of protection to your users, and should not be used.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/components/config/EditChannelDialog.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "dialog.dismiss()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 392,
+        "startColumn": 1,
+        "endLineNumber": 392,
+        "endColumn": 33,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/map/MapFragment.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "dialog.dismiss()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 603,
+        "startColumn": 1,
+        "endLineNumber": 603,
+        "endColumn": 29,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/map/MapFragment.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "dialog.show()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 607,
+        "startColumn": 1,
+        "endLineNumber": 607,
+        "endColumn": 22,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/map/MapFragment.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "dialog.dismiss()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 625,
+        "startColumn": 1,
+        "endLineNumber": 625,
+        "endColumn": 41,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/map/MapFragment.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "else -> dialog.dismiss()",
+    "relatedInformation": [
+      {
+        "startLineNumber": 629,
+        "startColumn": 1,
+        "endLineNumber": 629,
+        "endColumn": 45,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/ui/map/MapFragment.kt"
+      }
+    ]
+  },
+  {
+    "code": "INFO",
+    "severity": 4,
+    "source": "Log.e(\"toRemoteExceptions\", \"Uncaught exception, returning to remote client\", ex)",
+    "relatedInformation": [
+      {
+        "startLineNumber": 73,
+        "startColumn": 1,
+        "endLineNumber": 73,
+        "endColumn": 86,
+        "message": "Kotlin - HorusecEngine : No Log Sensitive Information\nThe App logs information. Sensitive information should never be logged. For more information checkout the CWE-532 (https://cwe.mitre.org/data/definitions/532.html) advisory.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/app/src/main/java/com/geeksville/mesh/util/Exceptions.kt"
+      }
+    ]
+  },
+  {
+    "code": "LOW",
+    "severity": 4,
+    "source": "<ID>MaxLineLength:MeshServiceBroadcasts.kt$MeshServiceBroadcasts$context.sendBroadcast(intent)</ID>",
+    "relatedInformation": [
+      {
+        "startLineNumber": 411,
+        "startColumn": 1,
+        "endLineNumber": 411,
+        "endColumn": 104,
+        "message": "Java - HorusecEngine : Sending Broadcast\nSending Broadcast",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Android/config/detekt/detekt-baseline.xml"
+      }
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "let context: NSManagedObjectContext",
+    "relatedInformation": [
+      {
+        "startLineNumber": 17,
+        "startColumn": 1,
+        "endLineNumber": 17,
+        "endColumn": 37,
+        "message": "Swift - HorusecEngine : CoreData Database\nApp uses CoreData Database. Sensitive Information should be encrypted.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Apple/Meshtastic/Helpers/BLEManager.swift"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "NSManagedObjectContext, nodeNum: Int64, nodeLongName: String) {",
+    "relatedInformation": [
+      {
+        "startLineNumber": 51,
+        "startColumn": 1,
+        "endLineNumber": 51,
+        "endColumn": 107,
+        "message": "Swift - HorusecEngine : CoreData Database\nApp uses CoreData Database. Sensitive Information should be encrypted.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Apple/Meshtastic/Helpers/MeshPackets.swift"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "extension NSManagedObjectContext {",
+    "relatedInformation": [
+      {
+        "startLineNumber": 77,
+        "startColumn": 1,
+        "endLineNumber": 77,
+        "endColumn": 35,
+        "message": "Swift - HorusecEngine : CoreData Database\nApp uses CoreData Database. Sensitive Information should be encrypted.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Apple/Meshtastic/Persistence/Persistence.swift"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "public func clearPax(destNum: Int64, context: NSManagedObjectContext) -> Bool {",
+    "relatedInformation": [
+      {
+        "startLineNumber": 11,
+        "startColumn": 1,
+        "endLineNumber": 11,
+        "endColumn": 80,
+        "message": "Swift - HorusecEngine : CoreData Database\nApp uses CoreData Database. Sensitive Information should be encrypted.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Apple/Meshtastic/Persistence/UpdateCoreData.swift"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "UIPasteboard.general.string = message.messagePayload",
+    "relatedInformation": [
+      {
+        "startLineNumber": 45,
+        "startColumn": 1,
+        "endLineNumber": 45,
+        "endColumn": 56,
+        "message": "Swift - HorusecEngine : UIPasteboard\nThis application uses UIPasteboard, improper use of this class can lead to security issues.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Apple/Meshtastic/Views/Messages/MessageContextMenuItems.swift"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "var context: NSManagedObjectContext",
+    "relatedInformation": [
+      {
+        "startLineNumber": 7,
+        "startColumn": 1,
+        "endLineNumber": 7,
+        "endColumn": 37,
+        "message": "Swift - HorusecEngine : CoreData Database\nApp uses CoreData Database. Sensitive Information should be encrypted.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Apple/Meshtastic/Views/Nodes/Helpers/Actions/FavoriteNodeButton.swift"
+      }
+    ]
+  },
+  {
+    "code": "MEDIUM",
+    "severity": 4,
+    "source": "var context: NSManagedObjectContext",
+    "relatedInformation": [
+      {
+        "startLineNumber": 6,
+        "startColumn": 1,
+        "endLineNumber": 6,
+        "endColumn": 37,
+        "message": "Swift - HorusecEngine : CoreData Database\nApp uses CoreData Database. Sensitive Information should be encrypted.",
+        "resource": "/Users/BigMac/Developer/Meshtastic/Meshtastic-Apple/Meshtastic/Views/Nodes/Helpers/Actions/NodeAlertsButton.swift"
+      }
+    ]
+  }
+]
